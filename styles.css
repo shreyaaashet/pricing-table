@@ -110,6 +110,10 @@ body{
 .features li .icon.cross{
   color: #cd3241;
 }
+.icon.check.ab{
+  font-weight: 900;
+  font-size:medium;
+}
 .table .btn{
   width: 100%;
   display: flex;
@@ -306,7 +310,8 @@ body{
   .price-area .inner-area .text {
     top: -10px;
     left: 5px;}
- 
+  }
+
 
 
 
