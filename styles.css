@@ -19,7 +19,7 @@ body{
 }
 .wrapper{
  width: 80vw; 
-  height: 50%;
+  height: 40%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -339,7 +339,9 @@ body{
   .line.goo{
     margin-top:-3.3rem;
   }
-  
+  .price-area .inner-area{
+    line-height: 110px;
+  }
 .price-area .inner-area .text{
   font-size: 20px;
   font-weight: 400;
@@ -390,8 +392,9 @@ body{
    background: none;
  }
  ul.features {
-  margin-top: 5rem;
+  margin-top: 3.9rem;
 }
+
 ul.features.hoo{
   margin-top: 6.7rem;
 }
@@ -426,10 +429,35 @@ ul.features.hoo{
     margin-top: 1.79rem;
     font-size: 1.3rem;
   }
+  .table .price-area{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    padding: 2px;
+  }
+  .price-area .inner-area .text{
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    top: -10px;
+    left: 4px;
   
   }
+}
+
   @media (max-width: 346px) {
     .basic .package-name::before{
       margin-top: 1.79rem;
     }
+   
   }
+  @media  (min-width:739px) {
+    .third .package-name::before {
+      
+   
+      margin-top: 1rem;}
+  
+   
+  }
+    
+  
