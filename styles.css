@@ -60,11 +60,13 @@ body{
   font-size: 20px;
   font-weight: 400;
   position: absolute;
-  top: -22px;
-  left: 17px;
+  top: -9px;
+  left: 9px;
+
+  /* background: #833af8; */
 }
 .price-area .inner-area .price{
-  font-size: 35px;
+  font-size: 33px;
   font-weight: 500;
   margin-left: 16px;
 }
@@ -300,7 +302,10 @@ body{
      
   
 }
-
+@media (max-width: 736px) {
+  .price-area .inner-area .text {
+    top: -10px;
+    left: 5px;}
  
 
 
@@ -335,11 +340,11 @@ body{
   font-weight: 400;
   position: absolute;
   top: -10px;
-  left: 17px;
+  left: 5px;
 }
 .price-area .inner-area .price{
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 1.7rem;
+  font-weight: 700;
   margin-left: 10px;}
   .price-section{
     margin-top:10px;
@@ -359,7 +364,7 @@ body{
   .basic .package-name::before,
   .second .package-name::before
   { width:100%;
-  margin-top:2rem;
+  margin-top:1rem;
   font-size: 1.3rem;
 }
 .premium .package-name::before,
@@ -370,7 +375,7 @@ body{
   }
   .third .package-name::before{
     width:100%;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1.3rem;
   }
 
@@ -403,7 +408,23 @@ ul.features.hoo{
   }
 
 }
+@media (max-width: 500px) {
 
-
-
-
+  .third .package-name::before{
+   
+    margin-top:2rem;
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 420px) {
+  .second .package-name::before{
+    margin-top: 1.79rem;
+    font-size: 1.3rem;
+  }
+  
+  }
+  @media (max-width: 346px) {
+    .basic .package-name::before{
+      margin-top: 1.79rem;
+    }
+  }
